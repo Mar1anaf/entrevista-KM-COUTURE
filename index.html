@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Defer loading of script for performance -->
+    <title>Contact Form</title>
+</head>
+<body>
+    <form id="contactForm">
+        <div id="error" class="error"></div> <!-- Error message container -->
+        
+        <!-- Form fields -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Bryan Clark">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="bryanck@gmail.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write a message here..."></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
